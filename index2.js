@@ -1,6 +1,7 @@
 
 import { createStore } from 'redux'
 
+
 //defining constants
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
@@ -61,7 +62,6 @@ const counterReducer = (state = initialCounterState, action) => {
 
 //create store
 const store = createStore(counterReducer);
-
 
 
 store.subscribe(() => {
