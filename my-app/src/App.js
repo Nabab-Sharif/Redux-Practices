@@ -1,15 +1,18 @@
 
 import './App.css';
-import Counter from './component/Counter2'
-
+import Todos from './components/Todos';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>welcome to react-redux </h1>
-      <Counter/>
+
+    <div>
+    
+      <h2>It is a react-redux </h2>
+      <Todos />
+
     </div>
+
   );
 }
 
